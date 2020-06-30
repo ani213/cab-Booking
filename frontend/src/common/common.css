@@ -1,0 +1,69 @@
+@media screen and (min-width:851px) {
+/*navigatton*/
+
+.link-container{
+    padding: 15px !important;
+}
+.link{
+    color: white !important;
+    text-decoration: none;
+    padding: 7px 20px 7px 20px;
+    margin: 0px 5px;
+    font-weight: 700;
+}
+.link:hover{
+    color: white !important;
+    background-color:rgb(255,192,0);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 7px 20px 7px 20px;
+}
+.after-clicked{
+    color: white !important;
+    background-color:rgb(255,192,0);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 7px 20px 7px 20px;
+}
+
+
+}
+@media screen and (min-width:451px) and (max-width:850px) {
+    .link{
+        color: white !important;
+        text-decoration: none;
+        /* padding: 7px 20px 7px 20px; */
+        /* margin: 0px 5px; */
+        /* font-weight: 700; */
+    }
+    .after-clicked{
+        color: white !important;
+    background-color: rgb(255,192,0);
+    border-radius: 6px;
+    text-decoration: none !important;
+    font-weight: 700;
+    padding: 7px 0px 7px 8px;
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    .link{
+        color: white !important;
+        text-decoration: none;
+        /* padding: 7px 20px 7px 20px; */
+        /* margin: 0px 5px; */
+        /* font-weight: 700; */
+    }
+    .after-clicked{
+        color: white !important;
+    background-color: rgb(255,192,0);
+    border-radius: 6px;
+    text-decoration: none !important;
+    font-weight: 700;
+    padding: 7px 0px 7px 8px;
+    }
+    
+}
